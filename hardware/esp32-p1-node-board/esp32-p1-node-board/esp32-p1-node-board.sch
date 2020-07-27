@@ -210,7 +210,7 @@ BUTTON
 Text Label 4400 2900 0    50   ~ 0
 SCL
 Text Label 6500 3200 2    50   ~ 0
-DATA_REQ
+SOFT_REQ
 Text Label 6500 2800 2    50   ~ 0
 SOFT_TXD
 Wire Wire Line
@@ -273,10 +273,10 @@ L SparkFun-Jumpers:JUMPER-SMT_3_1-NC JP1
 U 1 1 5F1DD89F
 P 3100 4250
 F 0 "JP1" V 3436 4250 45  0000 C CNN
-F 1 "JUMPER-SMT_3_1-NC" V 3352 4250 45  0000 C CNN
+F 1 "Serial-type-select" V 3352 4250 45  0000 C CNN
 F 2 "Jumpers:SMT-JUMPER_3_1-NC_TRACE_SILK" H 3100 4500 20  0001 C CNN
 F 3 "" V 3100 4195 60  0001 C CNN
-F 4 "XXX-00000" V 3257 4250 60  0000 C CNN "PROD_ID"
+F 4 "Serial selector" V 3257 4250 60  0000 C CNN "PROD_ID"
 	1    3100 4250
 	0    -1   -1   0   
 $EndComp
@@ -286,10 +286,6 @@ Wire Wire Line
 	3100 4550 3800 4550
 Wire Wire Line
 	2900 4250 2350 4250
-Wire Wire Line
-	6050 2700 6600 2700
-Text Label 6500 2700 2    50   ~ 0
-SOFT_RXD
 Wire Wire Line
 	3300 4250 3800 4250
 Wire Wire Line
@@ -302,4 +298,118 @@ Text Label 3700 4250 2    50   ~ 0
 SOFT_RXD
 Text Label 2450 4250 0    50   ~ 0
 HARD_RXD
+Wire Wire Line
+	6050 2900 6600 2900
+Text Label 6150 2900 0    50   ~ 0
+SOFT_RXD
+$Comp
+L SparkFun-Jumpers:JUMPER-SMT_3_1-NC JP2
+U 1 1 5F1EB1BA
+P 3100 5200
+F 0 "JP2" V 3436 5200 45  0000 C CNN
+F 1 "Data-request-select" V 3352 5200 45  0000 C CNN
+F 2 "Jumpers:SMT-JUMPER_3_1-NC_TRACE_SILK" H 3100 5450 20  0001 C CNN
+F 3 "" V 3100 5145 60  0001 C CNN
+F 4 "Request selector" V 3257 5200 60  0000 C CNN "PROD_ID"
+	1    3100 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 5350 3100 5500
+Wire Wire Line
+	3100 5500 3800 5500
+Wire Wire Line
+	2900 5200 2350 5200
+Wire Wire Line
+	3300 5200 3800 5200
+Text Label 3700 5500 2    50   ~ 0
+DATA_REQ
+Text Label 3700 5200 2    50   ~ 0
+3V3
+Text Label 2450 5200 0    50   ~ 0
+SOFT_REQ
+Wire Wire Line
+	5700 4450 6600 4450
+Text Label 6500 4450 2    50   ~ 0
+GND
+Text Label 6500 5050 2    50   ~ 0
+5V
+$Comp
+L Device:C C2
+U 1 1 5F1EFAFA
+P 5900 5250
+F 0 "C2" H 6015 5296 50  0000 L CNN
+F 1 "10n" H 6015 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5938 5100 50  0001 C CNN
+F 3 "~" H 5900 5250 50  0001 C CNN
+	1    5900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5050 5900 5050
+Wire Wire Line
+	5900 5100 5900 5050
+Connection ~ 5900 5050
+Wire Wire Line
+	5900 5050 6600 5050
+$Comp
+L esp32_node:THT_USB-B-Mini Conn1
+U 1 1 5F1FC4B8
+P 5300 5300
+F 0 "Conn1" H 5244 5815 50  0000 C CNN
+F 1 "THT_USB-B-Mini" H 5244 5724 50  0000 C CNN
+F 2 "esp32-p1-node-board:THT_USB-B-Mini" H 5300 5300 50  0001 C CNN
+F 3 "" H 5300 5300 50  0001 C CNN
+	1    5300 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F1FD530
+P 6050 5700
+F 0 "C3" H 6165 5746 50  0000 L CNN
+F 1 "10n" H 6165 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6088 5550 50  0001 C CNN
+F 3 "~" H 6050 5700 50  0001 C CNN
+	1    6050 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5550 5750 5550
+Wire Wire Line
+	5750 5550 5750 5650
+Wire Wire Line
+	5750 5950 6050 5950
+Wire Wire Line
+	6050 5950 6050 5850
+Wire Wire Line
+	5650 5650 5750 5650
+Connection ~ 5750 5650
+Wire Wire Line
+	5750 5650 5750 5950
+Wire Wire Line
+	5650 5450 5900 5450
+Wire Wire Line
+	5900 5450 5900 5400
+Wire Wire Line
+	5900 5450 6050 5450
+Wire Wire Line
+	6050 5450 6050 5550
+Connection ~ 5900 5450
+Wire Wire Line
+	6050 5450 6600 5450
+Connection ~ 6050 5450
+Text Label 6500 5450 2    50   ~ 0
+GND
+$Comp
+L esp32_node:SMA-ANT-CONN COAX1
+U 1 1 5F1FA2D2
+P 5400 4450
+F 0 "COAX1" H 5456 4815 50  0000 C CNN
+F 1 "SMA-ANT-CONN" H 5456 4724 50  0000 C CNN
+F 2 "esp32-p1-node-board:SMA-ANT-CONN" H 5400 4450 50  0001 C CNN
+F 3 "" H 5400 4450 50  0001 C CNN
+	1    5400 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
