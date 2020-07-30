@@ -116,7 +116,7 @@ Connection ~ 3050 2650
 Wire Wire Line
 	3050 2650 3050 2700
 Text Label 3300 2650 0    50   ~ 0
-DATA_3V3
+DATA_3V3_N
 Text Label 1050 3450 0    50   ~ 0
 DATA_GND
 $Comp
@@ -412,4 +412,36 @@ F 3 "" H 5400 4450 50  0001 C CNN
 	1    5400 4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L SparkFun-Jumpers:JUMPER-SMT_3_1-NC JP3
+U 1 1 5F231B69
+P 3100 6150
+F 0 "JP3" V 3436 6150 45  0000 C CNN
+F 1 "Serial-type-select" V 3352 6150 45  0000 C CNN
+F 2 "Jumpers:SMT-JUMPER_3_1-NC_TRACE_SILK" H 3100 6400 20  0001 C CNN
+F 3 "" V 3100 6095 60  0001 C CNN
+F 4 "Polarity selector" V 3257 6150 60  0000 C CNN "PROD_ID"
+	1    3100 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 6300 3100 6450
+Wire Wire Line
+	3100 6450 3800 6450
+Wire Wire Line
+	2900 6150 2350 6150
+Wire Wire Line
+	3300 6150 3800 6150
+Text Label 3700 6450 2    50   ~ 0
+DATA_3V3
+Text Label 3700 6150 2    50   ~ 0
+DATA_3V3_N
+Text Label 2450 6150 0    50   ~ 0
+DATA_3V3_R
+Wire Wire Line
+	2000 2900 2000 1850
+Wire Wire Line
+	2000 1850 2700 1850
+Text Label 2100 1850 0    50   ~ 0
+DATA_3V3_R
 $EndSCHEMATC
