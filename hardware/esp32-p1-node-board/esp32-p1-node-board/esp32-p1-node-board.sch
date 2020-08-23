@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:esp32-p1-node-board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -41,8 +40,6 @@ DATA_REQ
 Text Notes 2250 1400 0    50   ~ 0
 See: P1 Specification: https://www.netbeheernederland.nl/_upload/Files/Slimme_meter_15_a727fce1f1.pdf\nPWR: 5V, Max current: 250 mA\nDATA: Open collector\nP1 port lines must be galvanically isolated from the mains,Including+5V power supply lines
 Wire Wire Line
-	1300 1550 2000 1550
-Wire Wire Line
 	1300 1250 2000 1250
 Wire Wire Line
 	1300 1050 2000 1050
@@ -50,8 +47,6 @@ Text Label 1600 1050 0    50   ~ 0
 GND
 Text Label 1600 1250 0    50   ~ 0
 NC
-Text Label 1600 1550 0    50   ~ 0
-5V
 $Comp
 L Device:R R3
 U 1 1 5F010DE5
