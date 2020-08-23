@@ -39,7 +39,7 @@ To aid the creation of the window the following holes can be drilled:
 ## 3D printed frame
 The 3D printed frame is made available as Sketchup source file and STL-file for download. 
 
-Sketchup source file: <a download="Venster_003.skp" href="Venster_003.skp" title="Sketchup file">Venster_003.skp</a>
-STL-file: <a download="Venster_003_fixed.stl" href="Venster_003_fixed.stl" title="STL-file">Venster_003_fixed.stl</a>
+ - Sketchup source file: <a download="Venster_003.skp" href="Venster_003.skp" title="Sketchup file, right-click and download.">Venster_003.skp</a>
+ - STL-file: <a download="Venster_003_fixed.stl" href="Venster_003_fixed.stl" title="STL-file">Venster_003_fixed.stl</a>
 
 #License
