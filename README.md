@@ -6,10 +6,14 @@ The node is designed for a LILYGO TTGO LORA32 868 Mhz ESP32 LoRa OLED node.
 ![P1-Node](images/P1NodeOnWhite.png "P1-Node")
 
 ## About the project
-The <a rel="TTN-Apeldoorn community" href="https://www.thethingsnetwork.org/community/apeldoorn/">TTN-Apeldoorn community</a> is an active community that is active since 2017. By organising <a rel="TTN-Apeldoorn meetups" href="https://www.meetup.com/LoRa-Network-in-Apeldoorn-Growing-Meetup/">meetups</a> and project for the community members a large group of IoT enthousiasts are regulary informed abou a wide range of IoT topics and developments. 
+The <a rel="TTN-Apeldoorn community" href="https://www.thethingsnetwork.org/community/apeldoorn/">TTN-Apeldoorn community</a> is an active community since 2017. By organising <a rel="TTN-Apeldoorn meetups" href="https://www.meetup.com/LoRa-Network-in-Apeldoorn-Growing-Meetup/">meetups</a> and projects for the community members a large group of IoT enthousiasts are regulary informed about a wide range of IoT topics and developments. With projects like <a rel="Apeldoorn in data" href="Apeldoorn in data">Apeldoorn in data</a>, TTN-Apeldoorn is involved in Citizen science projects of the township Apeldoorn. For one of the projects of Apeldoorn the P1-Node is developed and deliverde in a serie of 10 sensors.
 
-  is involved in Citizen science projects of te 
+The P1-Node is designed with reproduction by less experienced community members in mind. Although trough-hole-components are more easily to be solders by these community members the P1-Node is designed using SMD components. The chosen SMD components are the biggest possible (1206) that can be hand soldered. Also it is possible to introduce reflow techniques to the community members that they actually can do them selves. 
 
+It is planned to deliver a project to TTN-Apeldoorn community in which the members can build their own P1-Node.
+
+## About this repository
+This repository holds all information te build de P1-Node. 
 
 
 
