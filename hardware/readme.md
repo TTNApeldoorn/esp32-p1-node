@@ -8,6 +8,7 @@ The hardware part of the repository has 3 folders:
    2. Board (esp32-p1-node-board)
    3. Housing (esp32-p1-node-housing)
    4. ![BOM](bom.md "BOM")
+   5. ![Building instructions](instructions.md "Building instructions")
 
 ### Documentation
 This ![folder](documentation/ "folder") contains relevant documentation, datasheets and links to topics that are relevant for the project.
@@ -24,7 +25,10 @@ Venster_003.skp | Source file of the frame in <a href="https://www.sketchup.com/
 Venster_003.stl | 3D file for printing in <a href="https://en.wikipedia.org/wiki/STL_(file_format)" target="_blank">STL</a> format.
 
 ### BOM (Bill of Materials)
-The ![BOM](bom.md "BOM") presnts a extensive list of materials fo the P1-Node.
+The ![BOM](bom.md "BOM") presents a extensive list of materials for the P1-Node.
+
+### Building Instructions
+
 
 # License
 The TTN-Apeldoorn P1-Node node is free soft- and hardware:
