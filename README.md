@@ -1,9 +1,12 @@
 # TTN-Apeldoorn P1-Node
-This is the P1-Node of TTN-Apeldoorn. The P1-Node is a LoRaWAN device that will read the information form intelligent energy meters (Intelligente meters) the have a P1-interface. 
+This is the P1-Node of TTN-Apeldoorn. The P1-Node is a LoRaWAN device that will read the information from intelligent energy meters (<a href="https://nl.wikipedia.org/wiki/Slimme_meter" target="_blank">slimme meters</a>) that have a P1-interface. 
 
 ![P1-Node](images/P1NodeOnWhite.png "P1-Node")
 
 
+# Disclaimer
+The documentation of the TTN-Apeldoorn P1-Node is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # License
 The TTN-Apeldoorn P1-Node node is free soft- and hardware:
