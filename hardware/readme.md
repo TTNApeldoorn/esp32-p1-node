@@ -9,17 +9,18 @@ The hardware part of the repository has 3 folders:
    3. Housing (esp32-p1-node-housing)
 
 ### Documentation
-This folder contains relevant documentation, datasheets and links to topics that are relevant for the project.
+This ![folder](documentation/ "folder") contains relevant documentation, datasheets and links to topics that are relevant for the project.
 
 ### Board (esp32-p1-node-board)
-This folder contains the complete PCB design and libraries for the P1-Node for <a href="https://kicad-pcb.org/" target="_blank">KiCad</a>.
+This ![folder](esp32-p1-node-board/ "folder") contains the complete PCB design and libraries for the P1-Node for <a href="https://kicad-pcb.org/" target="_blank">KiCad</a>.
 
 ### Housing (esp32-p1-node-housing)
-This ![folder](esp32-p1-node-housing/ "folder")folder contains both the source of the 3D printed frame as well as the .stl file for printing it. Also the measures for teh holes that shall be made in the ABS housing arde documented here.
+This ![folder](esp32-p1-node-housing/ "folder") contains both the source of the 3D printed frame as well as the .stl file for printing it. Also the measures for the holes that shall be made in the ABS housing are documented here.
 
-Venster_003.skp
-Venster_003.stl
-
+File            | Note
+----------------|--------------------------
+Venster_003.skp | Source file of the frame in <a href="https://www.sketchup.com/" target="_blank">Sketchup</a> format.
+Venster_003.stl | 3D file for printing in <a href="https://en.wikipedia.org/wiki/STL_(file_format)" target="_blank">STL</a> format.
 
 # License
 
