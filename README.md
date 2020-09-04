@@ -1,7 +1,17 @@
 # TTN-Apeldoorn P1-Node
 This is the P1-Node of TTN-Apeldoorn. The P1-Node is a LoRaWAN device that will read the information from intelligent energy meters (<a href="https://nl.wikipedia.org/wiki/Slimme_meter" target="_blank">slimme meters</a>) that have a P1-interface. 
 
+The node is designed for a LILYGO TTGO LORA32 868 Mhz ESP32 LoRa OLED node. 
+
 ![P1-Node](images/P1NodeOnWhite.png "P1-Node")
+
+## About the project
+The <a rel="TTN-Apeldoorn community" href="https://www.thethingsnetwork.org/community/apeldoorn/">TTN-Apeldoorn community</a> is an active community that is active since 2017. By organising <a rel="TTN-Apeldoorn meetups" href="https://www.meetup.com/LoRa-Network-in-Apeldoorn-Growing-Meetup/">meetups</a> and project for the community members a large group of IoT enthousiasts are regulary informed abou a wide range of IoT topics and developments. 
+
+  is involved in Citizen science projects of te 
+
+
+
 
 
 # Disclaimer

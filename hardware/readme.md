@@ -1,8 +1,8 @@
 # TTN-Apeldoorn P1-Node board and housing
-The P1-Node is designed with reproduction in mind. Therefore the PCB was desigened using <a href="https://kicad-pcb.org/" target="_blank">KiCad</a>. In addition the PCB was designed with an introduction to SMD soldering in mind. Components are chosen to be "big" so they can be hand-soldered or using reflow techniques. The housing can be finished using basic drill techniques and some parts are 3D-printed.
+The P1-Node is designed with reproduction in mind. Therefore the PCB was desigened using <a href="https://kicad-pcb.org/" target="_blank">KiCad</a>. In addition, the PCB was designed with an introduction to SMD soldering in mind. Components are chosen to be "big" so they can be hand-soldered or using reflow techniques. The housing can be finished using basic drill techniques and some parts are 3D-printed.
 
 ## repository content
-The hardware part of the repository has 3 folders:
+The hardware part of the repository has 5 folders:
 
    1. Documentation
    2. Board (esp32-p1-node-board)
@@ -28,7 +28,7 @@ Venster_003.stl | 3D file for printing in <a href="https://en.wikipedia.org/wiki
 The ![BOM](bom.md "BOM") presents a extensive list of materials for the P1-Node.
 
 ### Building Instructions
-
+The ![Building instructions](instructions.md "Building instructions") describe how to build and progam de P1-Node.
 
 # License
 The TTN-Apeldoorn P1-Node node is free soft- and hardware:
