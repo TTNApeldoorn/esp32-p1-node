@@ -23,7 +23,6 @@ Venster_003.skp | Source file of the frame in <a href="https://www.sketchup.com/
 Venster_003.stl | 3D file for printing in <a href="https://en.wikipedia.org/wiki/STL_(file_format)" target="_blank">STL</a> format.
 
 # License
-
 The TTN-Apeldoorn P1-Node node is free soft- and hardware:
 you can redistribute and/or modify it under the terms of a Creative Commons Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/) by TTN-Apeldoorn (https://www.thethingsnetwork.org/community/apeldoorn/) E-mail: ttnapeldoorncoreteam@rfsee.nl
 

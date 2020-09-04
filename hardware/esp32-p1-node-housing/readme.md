@@ -5,6 +5,8 @@ As the TTGO LORA32 has an Oled display the box a window so that the information 
 
 This document will describe all measures for aproperiate holes in the flanged Hammond box and the files for the 3D printed frame.
 
+*All measures are in millimeters (mm)*
+
 ## Dimensions of holes
 This paragraph will present schematics of all dimensions and measures of the holes that shall be applied to the Hammond box.
 
@@ -37,13 +39,12 @@ To aid the creation of the window the following holes can be drilled:
 ![location-dimenstions support-holes window frontside](CaseFrontAid.png "location-dimenstions support-holes window frontside")
 
 ## 3D printed frame
-The 3D printed frame is made available as Sketchup source file and STL-file for download. 
+The 3D printed frame is made available as <a href="https://www.sketchup.com/" target="_blank">Sketchup</a> source file and STL-file for download. 
 
- - Sketchup source file: <a download="Venster_003.skp" href="Venster_003.skp" title="Sketchup file, right-click and download.">Venster_003.skp</a>
- - STL-file: <a download="Venster_003_fixed.stl" href="Venster_003_fixed.stl" title="STL-file">Venster_003_fixed.stl</a>
+ - <a href="https://www.sketchup.com/" target="_blank">Sketchup</a> source file: <a download="Venster_003.skp" href="Venster_003.skp" title="Sketchup file, right-click and download.">Venster_003.skp</a>
+ - <a href="https://en.wikipedia.org/wiki/STL_(file_format)" target="_blank">STL</a>-file: <a download="Venster_003_fixed.stl" href="Venster_003_fixed.stl" title="STL-file">Venster_003_fixed.stl</a>
 
 # License
-
 The TTN-Apeldoorn P1-Node node is free soft- and hardware:
 you can redistribute and/or modify it under the terms of a Creative Commons Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/) by TTN-Apeldoorn (https://www.thethingsnetwork.org/community/apeldoorn/) E-mail: ttnapeldoorncoreteam@rfsee.nl
 
