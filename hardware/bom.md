@@ -1,4 +1,5 @@
 # BOM
+This is the Bill of Materials for the P1-Node. Although this list is created with accuracy in mind it might be incorrect.
 
 Ref | n | Value | Footprint | Shop | Datasheet
 ----|---|-------|-----------|------|-------------------------------------
